@@ -1,0 +1,22 @@
+.cascading-right {
+    margin-right: -50px;
+    background: hsla(0, 0%, 100%, 0.55);
+              backdrop-filter: blur(30px);
+  }
+  
+  @media (max-width: 991.98px) {
+    .cascading-right {
+      margin-right: 0;
+    }
+  }
+
+  .form-outline.error .form-control {
+    border-color: red;
+    /* Add any additional styling to indicate the error state */
+  }
+  
+  .form-outline.error .form-label {
+    color: red;
+    /* Add any additional styling to indicate the error state */
+  }
+  
