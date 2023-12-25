@@ -11,6 +11,8 @@ import AddTour from './components/TourManagement/Addtour';
 import ViewTour from './components/TourManagement/ViewTour';
 import UpdateTour from './components/TourManagement/UpdateTour';
 import DeleteTourForm from './components/TourManagement/DeleteTour';
+import Checkout from './components/Payment/Checkout';
+import StripeContainer from './components/Payment/StripeContainer';
 
 function App() {
   return (
@@ -29,6 +31,8 @@ function App() {
           <Route path="/viewtour" element={<ViewTour/>}  />
           <Route path="/updatetour" element={<UpdateTour/>}  />
           <Route path="/deletetour" element={<DeleteTourForm/>}  />
+          <Route path='/checkout/:bookingId' element={<StripeContainer/>} />
+
         </Routes>
       </BrowserRouter>
 
