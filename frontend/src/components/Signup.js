@@ -22,7 +22,7 @@ function Signup()
         return;
       }
         axios
-          .post("https://tour-management-app-backend.vercel.app//user/signup", {
+          .post("https://tour-management-app-kohl.vercel.app/user/signup", {
             name: fullname,
             username: username,
             email: email,
