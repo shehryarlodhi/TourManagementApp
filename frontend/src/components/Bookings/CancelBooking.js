@@ -26,7 +26,7 @@ const CancelBooking = () => {
 
 const cancelBooking = (bookingId) => {
   axios
-    .delete(`http://localhost:3001/tour/booking/${bookingId}`, {
+    .delete(`https://tour-management-app-kohl.vercel.app/tour/booking/${bookingId}`, {
       headers: {
         token: token,
       },
@@ -36,7 +36,7 @@ const cancelBooking = (bookingId) => {
       alert("Booking is Cancelled Successfully");
 
       axios
-        .get('http://localhost:3001/tour/viewbooking', {
+        .get('https://tour-management-app-kohl.vercel.app/tour/viewbooking', {
           headers: {
             token: token,
           },
