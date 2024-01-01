@@ -31,7 +31,7 @@ function UpdateTour() {
     formData.append("duration_days", durationdays);
     let token=localStorage.getItem('token')
     axios
-      .put("https://tour-management-app-backend.vercel.app//tour/update", formData, {
+      .put("https://tour-management-app-kohl.vercel.app/tour/update", formData, {
         headers: {
            'token':token
         }
