@@ -45,7 +45,7 @@ export default function PaymentForm() {
           try {
             const { id } = paymentMethod;
             const response = await axios.post(
-              `http://localhost:3001/payment/addpayment/${bookingId}`,
+              `https://tour-management-app-backend.vercel.app//payment/addpayment/${bookingId}`,
               {
                 id,
                 user_id: user_id,

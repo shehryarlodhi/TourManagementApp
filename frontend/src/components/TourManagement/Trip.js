@@ -11,7 +11,7 @@ function Trip()
   let token = localStorage.getItem("token");
   useEffect(() => {
     axios
-      .get("http://localhost:3001/tour/view", {
+      .get("https://tour-management-app-backend.vercel.app//tour/view", {
         headers: {
           token: token,
         },
