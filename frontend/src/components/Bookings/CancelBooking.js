@@ -9,7 +9,7 @@ const CancelBooking = () => {
 
   useEffect(() => {
     axios
-      .get('https://tour-management-app-backend.vercel.app//tour/viewbooking', {
+      .get('https://tour-management-app-kohl.vercel.app/tour/viewbooking', {
         headers: {
           token: token,
         },
