@@ -17,7 +17,7 @@ require("dotenv").config();
 
 app.use(cors(
     {
-    origin:["https://tour-management-app-frontend-git-main-shehryar-lodhis-projects.vercel.app"],
+    origin:["https://tour-management-app-4dg4-sl3cqf9e8-shehryar-lodhis-projects.vercel.app"],
     methods:["POST","GET"],
     credentials:true
     }    
