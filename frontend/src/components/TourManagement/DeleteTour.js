@@ -14,7 +14,7 @@ const DeleteTourForm = () => {
   const handleDelete = () => {
     let token = localStorage.getItem('token');
     axios
-      .delete(`https://tour-management-app-kohl.vercel.app/tour/delete/${tourId}`, {
+      .delete(`https://tour-management-app-sigma.vercel.app/tour/delete/${tourId}`, {
         headers: {
           token: token,
         },

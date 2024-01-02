@@ -16,7 +16,7 @@ function Login() {
     const isEmail = username.includes("@");
 
     axios
-      .post("https://tour-management-app-kohl.vercel.app/user/login", {
+      .post("https://tour-management-app-sigma.vercel.app/user/login", {
         [isEmail ? "email" : "username"]: username,
         password,
       })

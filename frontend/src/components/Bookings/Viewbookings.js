@@ -13,7 +13,7 @@ const ViewBooking = () => {
   useEffect(() => {
     if (token && user_id) {
         axios
-        .get(`https://tour-management-app-kohl.vercel.app/tour/viewbookings/${user_id}`, {
+        .get(`https://tour-management-app-sigma.vercel.app/tour/viewbookings/${user_id}`, {
           headers: {
             token: token,
           },

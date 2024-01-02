@@ -38,7 +38,7 @@ function AddTour() {
 
     let token=localStorage.getItem('token')
     axios
-      .post("https://tour-management-app-kohl.vercel.app/tour/add", formData, {
+      .post("59/tour/add", formData, {
         headers: {
            'token':token
         }

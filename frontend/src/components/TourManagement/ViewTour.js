@@ -12,7 +12,7 @@ function ViewTour() {
   let token = localStorage.getItem("token");
   useEffect(() => {
     axios
-      .get("https://tour-management-app-kohl.vercel.app/tour/view", {
+      .get("https://tour-management-app-sigma.vercel.app/tour/view", {
         headers: {
           token: token,
         },

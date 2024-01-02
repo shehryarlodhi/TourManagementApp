@@ -26,7 +26,7 @@ function AddBooking() {
 
   const Add = () => {
     axios
-      .post(`https://tour-management-app-kohl.vercel.app/tour/bookings/${id}`, {
+      .post(`https://tour-management-app-sigma.vercel.app/tour/bookings/${id}`, {
         booking_id,
         user_id:user_id,
         customer_name: customerName,

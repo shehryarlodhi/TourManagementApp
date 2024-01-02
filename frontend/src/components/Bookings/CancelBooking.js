@@ -9,7 +9,7 @@ const CancelBooking = () => {
 
   useEffect(() => {
     axios
-      .get('https://tour-management-app-kohl.vercel.app/tour/viewbooking', {
+      .get('https://tour-management-app-sigma.vercel.app/tour/viewbooking', {
         headers: {
           token: token,
         },
@@ -26,7 +26,7 @@ const CancelBooking = () => {
 
 const cancelBooking = (bookingId) => {
   axios
-    .delete(`https://tour-management-app-kohl.vercel.app/tour/booking/${bookingId}`, {
+    .delete(`https://tour-management-app-sigma.vercel.app/tour/booking/${bookingId}`, {
       headers: {
         token: token,
       },
@@ -36,7 +36,7 @@ const cancelBooking = (bookingId) => {
       alert("Booking is Cancelled Successfully");
 
       axios
-        .get('https://tour-management-app-kohl.vercel.app/tour/viewbooking', {
+        .get('https://tour-management-app-sigma.vercel.app/tour/viewbooking', {
           headers: {
             token: token,
           },
