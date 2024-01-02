@@ -15,13 +15,7 @@ app.use(bodyParser.json())
 require("dotenv").config();
 
 
-app.use(cors(
-    {
-    origin:["https://tour-management-app-4dg4-sl3cqf9e8-shehryar-lodhis-projects.vercel.app"],
-    methods:["POST","GET"],
-    credentials:true
-    }    
-))
+app.use(cors())
 app.use(express.json())
 const mongoose = require("mongoose"); 
 app.use('/public', express.static(__dirname + '/public'));
